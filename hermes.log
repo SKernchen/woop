@@ -47,3 +47,31 @@
 1742213046.521004:         hermes.init:      INFO | 
 HERMES is now initialized and ready to be used.
 
+1742214160.942712:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='harvest', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], command=<hermes.commands.harvest.base.HermesHarvestCommand object at 0x7f605f818070>)
+1742214160.942857:          hermes.cli:     DEBUG | Loading settings...
+1742214160.943799:          hermes.cli:     DEBUG | Update settings from command line...
+1742214160.943844:          hermes.cli:      INFO | Run subcommand harvest
+1742214161.085231:           audit.cff:      INFO | - Found valid Citation File Format file at: CITATION.cff
+1742214161.549076:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='process', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], command=<hermes.commands.process.base.HermesProcessCommand object at 0x7f0170a22f80>)
+1742214161.549214:          hermes.cli:     DEBUG | Loading settings...
+1742214161.550175:          hermes.cli:     DEBUG | Update settings from command line...
+1742214161.550223:          hermes.cli:      INFO | Run subcommand process
+1742214161.550373:      hermes.process:      INFO | ## Process data from cff
+1742214161.551096:   hermes.model.path:     DEBUG | @context: 'Key @type not in @context.'
+1742214161.551342:   hermes.model.path:     DEBUG | @type: 'Key @type not in @type.'
+1742214161.551692:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author.
+1742214161.551856:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].
+1742214161.552044:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].@type.
+1742214161.552357:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].familyName.
+1742214161.552689:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].givenName.
+1742214161.552994:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].email.
+1742214161.553235:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from license.
+1742214161.553431:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from name.
+1742214161.553794:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from version.
+1742214161.554175:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from @context.
+1742214161.554349:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from @type.
+1742214162.014008:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='curate', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], command=<hermes.commands.curate.base.HermesCurateCommand object at 0x7efd41917d30>)
+1742214162.014147:          hermes.cli:     DEBUG | Loading settings...
+1742214162.015102:          hermes.cli:     DEBUG | Update settings from command line...
+1742214162.015152:          hermes.cli:      INFO | Run subcommand curate
+1742214162.015244:       hermes.curate:      INFO | # Metadata curation
