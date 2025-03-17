@@ -1,0 +1,49 @@
+1742212832.748939:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='init', path=WindowsPath('.'), config=WindowsPath('hermes.toml'), options=[], template_branch='', command=<hermes.commands.init.base.HermesInitCommand object at 0x000001C0C6D1A350>)
+1742212832.748939:          hermes.cli:     DEBUG | Loading settings...
+1742212832.749919:          hermes.cli:     DEBUG | Update settings from command line...
+1742212832.749919:          hermes.cli:      INFO | Run subcommand init
+1742212832.847109:         hermes.init:      INFO | Your git project has multiple remotes. For which remote do you want to setup HERMES?
+1742212853.883270:         hermes.init:      INFO | You selected "test".
+
+1742212853.958533:         hermes.init:      INFO | Git project using GitHub detected.
+
+1742212853.958533:         hermes.init:   WARNING | The current directory already has a `hermes.toml`. It seems like HERMES was already initialized for this project.
+1742212868.100602:         hermes.init:      INFO | Starting to initialize HERMES in C:\Users\kern_so\Desktop\test1\deRSE24_test ...
+1742212868.100602:         hermes.init:      INFO | -- Step 1 of 7: Configure deposition platform and setup method --
+1742212868.100602:         hermes.init:      INFO | Where do you want to publish the software?
+1742212879.202654:         hermes.init:      INFO | You selected "Zenodo (Sandbox)".
+
+1742212879.203612:         hermes.init:      INFO | How do you want to connect Zenodo (Sandbox) with your GitHub CI?
+1742212886.483095:         hermes.init:      INFO | You selected "Automatically (using OAuth / Device Flow)".
+
+1742212886.483095:         hermes.init:      INFO | -- Step 2 of 7: Configure HERMES behaviour --
+1742212886.484093:         hermes.init:      INFO | When should the automated HERMES process start?
+1742212894.834453:         hermes.init:      INFO | You selected "When I push a branch".
+
+1742212903.602177:         hermes.init:      INFO | Which folders / files of your root directory should be included in the Zenodo (Sandbox) upload?
+1742212908.506327:         hermes.init:      INFO | You selected "All (non hidden) folders".
+
+1742212908.506327:         hermes.init:      INFO | Your upload will consist of the following:
+1742212908.506327:         hermes.init:      INFO | 	Zipped:
+1742212908.507331:         hermes.init:      INFO | 		src
+1742212908.507331:         hermes.init:      INFO | -- Step 3 of 7: Create hermes.toml file --
+1742212912.228842:         hermes.init:      INFO | `hermes.toml` was created.
+1742212912.228842:         hermes.init:      INFO | -- Step 4 of 7: Create CITATION.cff file --
+1742212912.228842:         hermes.init:      INFO | Your project already contains a `CITATION.cff` file. Nice!
+1742212912.230315:         hermes.init:      INFO | -- Step 5 of 7: Create git CI files --
+1742212912.300238:         hermes.init:      INFO | The `.gitignore` file already contains `.hermes/`
+1742212912.813602:         hermes.init:      INFO | GitHub CI: File was created at .github\workflows\hermes_github.yml
+1742212912.813602:         hermes.init:      INFO | -- Step 6 of 7: Connect with deposition platform --
+1742212912.814825:         hermes.init:      INFO | Doing OAuth with Zenodo is currently not available.
+1742212912.814825:         hermes.init:      INFO | Open this link (https://sandbox.zenodo.org/account/settings/applications/tokens/new/) and create an access token.
+1742212912.814825:         hermes.init:      INFO | It needs the scopes "deposit:actions" and "deposit:write".
+1742213018.899804:         hermes.init:      INFO | The token was validated by Zenodo (Sandbox).
+1742213018.899804:         hermes.init:      INFO | -- Step 7 of 7: Connect with git hoster --
+1742213018.899804:         hermes.init:      INFO | Using Device-Flow to authorize with GitHub
+1742213019.158944:         hermes.init:      INFO | Open https://github.com/login/device and enter this code: A856-1E22
+1742213045.554053:         hermes.init:      INFO | OAuth at GitHub was successful.
+1742213046.217580:         hermes.init:      INFO | Secret 'ZENODO_SANDBOX' created/updated successfully.
+1742213046.520005:         hermes.init:      INFO | Project settings updated successfully.
+1742213046.521004:         hermes.init:      INFO | 
+HERMES is now initialized and ready to be used.
+
